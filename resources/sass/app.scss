@@ -1,0 +1,60 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.users-style {
+    width: 50%;
+    margin: auto;
+    margin-top: 5px;
+.table-style {
+    margin-bottom: 5px;
+input {
+    width: 130px;
+    }
+
+.control {
+    float: right;
+    }
+    }
+    .table {
+    width: 60%;
+    .sorting {
+    background-image: url('/images/sort_both.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    }
+    .sorting_asc {
+    background-image: url('/images/sort_asc.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    }
+    .sorting_desc {
+    background-image: url('/images/sort_desc.png');
+    background-repeat: no-repeat;
+    background-position: center right;
+    }
+    }
+    nav a {
+    color: white!important;
+    margin-right: 5px;
+    }
+    }
+    h1 {
+    text-align: center;
+    font-size: 15px;
+    }
+    .pagination {
+    justify-content: flex-end !important;
+    .page-stats {
+    align-items: center;
+    margin-right: 5px;
+    }
+    i {
+    color: #3273dc !important;
+    }
+    }
